@@ -1,0 +1,1833 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.prFile version="1">
+<org.eventb.core.prProof name="INITIALISATION/inv3/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2" org.eventb.core.prSets="colour">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="sl/ds" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="SELECT0" org.eventb.core.prHyps="p1,p2"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="CVC3" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="R1000"/>
+<org.eventb.core.prString name=".config_id" org.eventb.core.prSValue="CVC3"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="colour"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="d∈ℕ1"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="red=green⇒0+0&lt;d∧0=0"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="partition(colour,{red},{green})"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.smt.core.externalSMT"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.mngHyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="INITIALISATION/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1" org.eventb.core.prSets="colour">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="sl/ds" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="SELECT0" org.eventb.core.prHyps="p1"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="CVC3" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="R1000"/>
+<org.eventb.core.prString name=".config_id" org.eventb.core.prSValue="CVC3"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="colour"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="red=green⇒0&gt;0∧0=0"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="partition(colour,{red},{green})"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.smt.core.externalSMT"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.mngHyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="INITIALISATION/inv5/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="" org.eventb.core.prSets="colour">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="sl/ds" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="SELECT0" org.eventb.core.prHyps="p1"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="PP (trivial)" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="R1000"/>
+<org.eventb.core.prString name=".config_id" org.eventb.core.prSValue="CVC3"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="colour"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="red=red∨red=red"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="partition(colour,{red},{green})">
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.smt.core.externalSMT"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.mngHyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="ML_out_1/inv3/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23" org.eventb.core.prSets="colour">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="sl/ds" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="SELECT0" org.eventb.core.prHyps="p13,p10,p2,p3,p17,p6,p5,p15,p20,p11,p21,p18,p7,p22,p23,p14,p8"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="CVC3" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p9,p1,p16,p4,p19,p12,p13,p10,p2,p3,p17,p6,p5,p15,p20,p11,p21,p18,p7,p22,p23,p14,p8">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="R1000"/>
+<org.eventb.core.prString name=".config_id" org.eventb.core.prSValue="CVC3"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="il_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="ml_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="n" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="colour"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="n&lt;d"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="n∈ℕ"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="n≤d"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="a+b&lt;d"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="b∈ℕ"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="a∈ℕ"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="il_tl∈colour"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="ml_tl=green⇒(a+1)+b&lt;d∧c=0"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="il_tl=red⇒il_pass=TRUE"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="ml_tl=green⇒a+b&lt;d∧c=0"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="partition(colour,{red},{green})"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="a+b+c=n"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="a+b+1≠d"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="d∈ℕ1"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="ml_tl=red⇒ml_pass=TRUE"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="c∈ℕ"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="c=0"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="n&lt;d∨n&gt;0"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="ml_tl∈colour"/>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="ml_tl=green"/>
+<org.eventb.core.prPred name="p20" org.eventb.core.predicate="a=0∨c=0"/>
+<org.eventb.core.prPred name="p21" org.eventb.core.predicate="(a+b&lt;d∧c=0)∨c&gt;0∨a&gt;0∨(b&gt;0∧a=0)"/>
+<org.eventb.core.prPred name="p22" org.eventb.core.predicate="il_tl=green⇒b&gt;0∧a=0"/>
+<org.eventb.core.prPred name="p23" org.eventb.core.predicate="ml_tl=red∨il_tl=red"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.smt.core.externalSMT"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.mngHyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="ML_out_1/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23" org.eventb.core.prSets="colour">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="sl/ds" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="SELECT0" org.eventb.core.prHyps="p13,p9,p2,p3,p17,p6,p5,p15,p20,p10,p22,p18,p7,p11,p23,p14,p8"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="CVC3" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p21,p1,p16,p4,p19,p12,p13,p9,p2,p3,p17,p6,p5,p15,p20,p10,p22,p18,p7,p11,p23,p14,p8">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="R1000"/>
+<org.eventb.core.prString name=".config_id" org.eventb.core.prSValue="CVC3"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="il_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="ml_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="n" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="colour"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="n&lt;d"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="n∈ℕ"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="n≤d"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="a+b&lt;d"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="b∈ℕ"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="il_tl=green⇒b&gt;0∧a+1=0"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="a∈ℕ"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="il_tl∈colour"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="il_tl=red⇒il_pass=TRUE"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="partition(colour,{red},{green})"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="a+b+c=n"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="ml_tl=green⇒a+b&lt;d∧c=0"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="a+b+1≠d"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="d∈ℕ1"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="ml_tl=red⇒ml_pass=TRUE"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="c∈ℕ"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="c=0"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="n&lt;d∨n&gt;0"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="ml_tl∈colour"/>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="ml_tl=green"/>
+<org.eventb.core.prPred name="p20" org.eventb.core.predicate="a=0∨c=0"/>
+<org.eventb.core.prPred name="p21" org.eventb.core.predicate="il_tl=green⇒b&gt;0∧a=0"/>
+<org.eventb.core.prPred name="p22" org.eventb.core.predicate="(a+b&lt;d∧c=0)∨c&gt;0∨a&gt;0∨(b&gt;0∧a=0)"/>
+<org.eventb.core.prPred name="p23" org.eventb.core.predicate="ml_tl=red∨il_tl=red"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.smt.core.externalSMT"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.mngHyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="ML_out_2/inv3/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23,p24,p25" org.eventb.core.prSets="colour">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="sl/ds" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="SELECT0" org.eventb.core.prHyps="p16,p9,p2,p3,p20,p5,p4,p18,p12,p10,p23,p21,p6,p24,p25,p15,p17,p7"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="CVC3" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p8,p1,p19,p14,p22,p11,p13,p16,p9,p2,p3,p20,p5,p4,p18,p12,p10,p23,p21,p6,p24,p25,p15,p17,p7">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="R1000"/>
+<org.eventb.core.prString name=".config_id" org.eventb.core.prSValue="CVC3"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="il_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="ml_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="n" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="colour"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="n&lt;d"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="n∈ℕ"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="n≤d"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="b∈ℕ"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="a∈ℕ"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="il_tl∈colour"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="il_tl=red⇒il_pass=TRUE"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="ml_tl=green⇒a+b&lt;d∧c=0"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="partition(colour,{red},{green})"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="a+b+c=n"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="a+b+1=d"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="a=0∨c=0"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="ml_pass=TRUE"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="a+b&lt;d"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="red=green⇒(a+1)+b&lt;d∧c=0"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="ml_pass∈BOOL"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="d∈ℕ1"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="ml_tl=red⇒ml_pass=TRUE"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="c∈ℕ"/>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="c=0"/>
+<org.eventb.core.prPred name="p20" org.eventb.core.predicate="n&lt;d∨n&gt;0"/>
+<org.eventb.core.prPred name="p21" org.eventb.core.predicate="ml_tl∈colour"/>
+<org.eventb.core.prPred name="p22" org.eventb.core.predicate="ml_tl=green"/>
+<org.eventb.core.prPred name="p23" org.eventb.core.predicate="(a+b&lt;d∧c=0)∨c&gt;0∨a&gt;0∨(b&gt;0∧a=0)"/>
+<org.eventb.core.prPred name="p24" org.eventb.core.predicate="il_tl=green⇒b&gt;0∧a=0"/>
+<org.eventb.core.prPred name="p25" org.eventb.core.predicate="ml_tl=red∨il_tl=red"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.smt.core.externalSMT"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.mngHyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="ML_out_2/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23,p24,p25" org.eventb.core.prSets="colour">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="sl/ds" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="SELECT0" org.eventb.core.prHyps="p16,p8,p2,p3,p20,p5,p4,p18,p12,p9,p24,p21,p6,p10,p25,p15,p17,p7"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="CVC3" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p23,p1,p19,p14,p22,p11,p13,p16,p8,p2,p3,p20,p5,p4,p18,p12,p9,p24,p21,p6,p10,p25,p15,p17,p7">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="R1000"/>
+<org.eventb.core.prString name=".config_id" org.eventb.core.prSValue="CVC3"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="il_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="ml_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="n" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="colour"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="n&lt;d"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="n∈ℕ"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="n≤d"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="b∈ℕ"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="a∈ℕ"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="il_tl∈colour"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="il_tl=red⇒il_pass=TRUE"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="partition(colour,{red},{green})"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="a+b+c=n"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="ml_tl=green⇒a+b&lt;d∧c=0"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="a+b+1=d"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="a=0∨c=0"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="ml_pass=TRUE"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="a+b&lt;d"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="il_tl=green⇒b&gt;0∧a+1=0"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="ml_pass∈BOOL"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="d∈ℕ1"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="ml_tl=red⇒ml_pass=TRUE"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="c∈ℕ"/>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="c=0"/>
+<org.eventb.core.prPred name="p20" org.eventb.core.predicate="n&lt;d∨n&gt;0"/>
+<org.eventb.core.prPred name="p21" org.eventb.core.predicate="ml_tl∈colour"/>
+<org.eventb.core.prPred name="p22" org.eventb.core.predicate="ml_tl=green"/>
+<org.eventb.core.prPred name="p23" org.eventb.core.predicate="il_tl=green⇒b&gt;0∧a=0"/>
+<org.eventb.core.prPred name="p24" org.eventb.core.predicate="(a+b&lt;d∧c=0)∨c&gt;0∨a&gt;0∨(b&gt;0∧a=0)"/>
+<org.eventb.core.prPred name="p25" org.eventb.core.predicate="ml_tl=red∨il_tl=red"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.smt.core.externalSMT"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.mngHyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="ML_out_2/inv5/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="" org.eventb.core.prSets="colour">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="sl/ds" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="SELECT0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="PP (trivial)" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="R1000"/>
+<org.eventb.core.prString name=".config_id" org.eventb.core.prSValue="CVC3"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="colour"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="n∈ℕ">
+<org.eventb.core.prIdent name="n" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="n≤d">
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="n" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="b∈ℕ">
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="a∈ℕ">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="il_tl∈colour"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="il_tl=red⇒il_pass=TRUE">
+<org.eventb.core.prIdent name="il_pass" org.eventb.core.type="BOOL"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="ml_pass∈BOOL">
+<org.eventb.core.prIdent name="ml_pass" org.eventb.core.type="BOOL"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="partition(colour,{red},{green})">
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="a+b+c=n">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="n" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="ml_tl=green⇒a+b&lt;d∧c=0">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="d∈ℕ1">
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="ml_tl=red⇒ml_pass=TRUE">
+<org.eventb.core.prIdent name="ml_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="c∈ℕ">
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="n&lt;d∨n&gt;0">
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="n" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="ml_tl∈colour">
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="a=0∨c=0">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="red=red∨il_tl=red"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="(a+b&lt;d∧c=0)∨c&gt;0∨a&gt;0∨(b&gt;0∧a=0)">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="il_tl=green⇒b&gt;0∧a=0">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.smt.core.externalSMT"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.mngHyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="ML_in/inv3/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20" org.eventb.core.prSets="colour">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="sl/ds" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="SELECT0" org.eventb.core.prHyps="p12,p9,p1,p2,p15,p5,p4,p14,p17,p10,p18,p16,p6,p19,p20,p13,p7"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="CVC3" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p8,p11,p3,p12,p9,p1,p2,p15,p5,p4,p14,p17,p10,p18,p16,p6,p19,p20,p13,p7">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="R1000"/>
+<org.eventb.core.prString name=".config_id" org.eventb.core.prSValue="CVC3"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="il_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="ml_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="n" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="colour"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="ml_tl=green⇒a+b&lt;d∧c − 1=0"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="n∈ℕ"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="n≤d"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="c&gt;0"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="b∈ℕ"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="a∈ℕ"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="il_tl∈colour"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="il_tl=red⇒il_pass=TRUE"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="ml_tl=green⇒a+b&lt;d∧c=0"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="partition(colour,{red},{green})"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="a+b+c=n"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="n&gt;0"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="d∈ℕ1"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="ml_tl=red⇒ml_pass=TRUE"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="c∈ℕ"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="n&lt;d∨n&gt;0"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="ml_tl∈colour"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="a=0∨c=0"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="(a+b&lt;d∧c=0)∨c&gt;0∨a&gt;0∨(b&gt;0∧a=0)"/>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="il_tl=green⇒b&gt;0∧a=0"/>
+<org.eventb.core.prPred name="p20" org.eventb.core.predicate="ml_tl=red∨il_tl=red"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.smt.core.externalSMT"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.mngHyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="IL_out_1/inv3/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21" org.eventb.core.prSets="colour">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="sl/ds" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="SELECT0" org.eventb.core.prHyps="p11,p9,p1,p15,p4,p3,p13,p18,p10,p19,p16,p5,p20,p21,p12,p7"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="CVC3" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p8,p14,p17,p2,p6,p11,p9,p1,p15,p4,p3,p13,p18,p10,p19,p16,p5,p20,p21,p12,p7">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="R1000"/>
+<org.eventb.core.prString name=".config_id" org.eventb.core.prSValue="CVC3"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="il_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="ml_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="n" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="colour"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="n≤d"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="il_tl=green"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="b∈ℕ"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="a∈ℕ"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="il_tl∈colour"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="b≠1"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="il_tl=red⇒il_pass=TRUE"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="ml_tl=green⇒a+b&lt;d∧c=0"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="partition(colour,{red},{green})"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="a+b+c=n"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="d∈ℕ1"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="ml_tl=red⇒ml_pass=TRUE"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="c∈ℕ"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="b&gt;0"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="ml_tl=green⇒a+(b − 1)&lt;d∧c+1=0"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="n&lt;d∨n&gt;0"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="ml_tl∈colour"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="a=0"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="a=0∨c=0"/>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="(a+b&lt;d∧c=0)∨c&gt;0∨a&gt;0∨(b&gt;0∧a=0)"/>
+<org.eventb.core.prPred name="p20" org.eventb.core.predicate="il_tl=green⇒b&gt;0∧a=0"/>
+<org.eventb.core.prPred name="p21" org.eventb.core.predicate="ml_tl=red∨il_tl=red"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.smt.core.externalSMT"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.mngHyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="IL_out_1/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17" org.eventb.core.prSets="colour">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="sl/ds" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="SELECT0" org.eventb.core.prHyps="p7,p3,p2,p14,p8,p16,p12,p4,p9,p17,p10,p6"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="CVC3" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p15,p11,p13,p1,p5,p7,p3,p2,p14,p8,p16,p12,p4,p9,p17,p10,p6">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="R1000"/>
+<org.eventb.core.prString name=".config_id" org.eventb.core.prSValue="CVC3"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="il_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="ml_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="n" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="colour"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="il_tl=green"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="b∈ℕ"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="a∈ℕ"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="il_tl∈colour"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="b≠1"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="il_tl=red⇒il_pass=TRUE"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="partition(colour,{red},{green})"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="a+b+c=n"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="ml_tl=green⇒a+b&lt;d∧c=0"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="ml_tl=red⇒ml_pass=TRUE"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="b&gt;0"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="il_tl=green⇒b − 1&gt;0∧a=0"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="ml_tl∈colour"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="a=0"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="a=0∨c=0"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="il_tl=green⇒b&gt;0∧a=0"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="(a+b&lt;d∧c=0)∨c&gt;0∨a&gt;0∨(b&gt;0∧a=0)"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="ml_tl=red∨il_tl=red"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.smt.core.externalSMT"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.mngHyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="IL_out/inv3/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19" org.eventb.core.prSets="colour">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="sl/ds" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="SELECT0" org.eventb.core.prHyps="p10,p8,p1,p13,p4,p3,p11,p16,p9,p17,p14,p5,p18,p19"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="CVC3" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p7,p12,p15,p2,p6,p10,p8,p1,p13,p4,p3,p11,p16,p9,p17,p14,p5,p18,p19">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="R1000"/>
+<org.eventb.core.prString name=".config_id" org.eventb.core.prSValue="CVC3"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="n" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="colour"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="n≤d"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="il_tl=green"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="b∈ℕ"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="a∈ℕ"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="il_tl∈colour"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="b=1"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="ml_tl=green⇒a+b&lt;d∧c=0"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="partition(colour,{red},{green})"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="a+b+c=n"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="d∈ℕ1"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="c∈ℕ"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="b&gt;0"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="ml_tl=green⇒a+(b − 1)&lt;d∧c+1=0"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="n&lt;d∨n&gt;0"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="ml_tl∈colour"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="a=0"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="a=0∨c=0"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="(a+b&lt;d∧c=0)∨c&gt;0∨a&gt;0∨(b&gt;0∧a=0)"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="il_tl=green⇒b&gt;0∧a=0"/>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="ml_tl=red∨il_tl=red"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.smt.core.externalSMT"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.mngHyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="IL_out/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15" org.eventb.core.prSets="colour">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="sl/ds" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="SELECT0" org.eventb.core.prHyps="p6,p3,p2,p12,p7,p14,p10,p4,p8,p15"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="CVC3" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p13,p9,p11,p1,p5,p6,p3,p2,p12,p7,p14,p10,p4,p8,p15">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="R1000"/>
+<org.eventb.core.prString name=".config_id" org.eventb.core.prSValue="CVC3"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="n" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="colour"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="il_tl=green"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="b∈ℕ"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="a∈ℕ"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="il_tl∈colour"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="b=1"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="partition(colour,{red},{green})"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="a+b+c=n"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="ml_tl=green⇒a+b&lt;d∧c=0"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="b&gt;0"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="ml_tl∈colour"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="a=0"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="a=0∨c=0"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="il_tl=green⇒b&gt;0∧a=0"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="(a+b&lt;d∧c=0)∨c&gt;0∨a&gt;0∨(b&gt;0∧a=0)"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="red=green⇒b − 1&gt;0∧a=0"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="ml_tl=red∨il_tl=red"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.smt.core.externalSMT"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.mngHyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="IL_out/inv5/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="" org.eventb.core.prSets="colour">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="sl/ds" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="SELECT0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="PP (trivial)" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="R1000"/>
+<org.eventb.core.prString name=".config_id" org.eventb.core.prSValue="CVC3"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="colour"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="b∈ℕ">
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="a∈ℕ">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="il_tl∈colour">
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="ml_tl=red∨red=red"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="ml_tl∈colour"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="a=0∨c=0">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="(a+b&lt;d∧c=0)∨c&gt;0∨a&gt;0∨(b&gt;0∧a=0)">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="il_tl=green⇒b&gt;0∧a=0">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="partition(colour,{red},{green})">
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="a+b+c=n">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="n" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="ml_tl=green⇒a+b&lt;d∧c=0">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.smt.core.externalSMT"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.mngHyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="IL_in/inv3/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18" org.eventb.core.prSets="colour">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="sl/ds" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="SELECT0" org.eventb.core.prHyps="p9,p7,p1,p13,p3,p2,p11,p15,p8,p16,p14,p4,p17,p18,p10,p5"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="CVC3" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p6,p12,p9,p7,p1,p13,p3,p2,p11,p15,p8,p16,p14,p4,p17,p18,p10,p5">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="R1000"/>
+<org.eventb.core.prString name=".config_id" org.eventb.core.prSValue="CVC3"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="il_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="ml_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="n" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="colour"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="n≤d"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="b∈ℕ"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="a∈ℕ"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="il_tl∈colour"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="il_tl=red⇒il_pass=TRUE"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="ml_tl=green⇒a+b&lt;d∧c=0"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="partition(colour,{red},{green})"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="a+b+c=n"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="ml_tl=green⇒a − 1+(b+1)&lt;d∧c=0"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="d∈ℕ1"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="ml_tl=red⇒ml_pass=TRUE"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="c∈ℕ"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="a&gt;0"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="n&lt;d∨n&gt;0"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="ml_tl∈colour"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="a=0∨c=0"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="(a+b&lt;d∧c=0)∨c&gt;0∨a&gt;0∨(b&gt;0∧a=0)"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="il_tl=green⇒b&gt;0∧a=0"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="ml_tl=red∨il_tl=red"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.smt.core.externalSMT"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.mngHyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="IL_in/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14" org.eventb.core.prSets="colour">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="sl/ds" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="SELECT0" org.eventb.core.prHyps="p5,p2,p1,p11,p6,p13,p10,p3,p7,p14,p8,p4"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="CVC3" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p12,p9,p5,p2,p1,p11,p6,p13,p10,p3,p7,p14,p8,p4">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="R1000"/>
+<org.eventb.core.prString name=".config_id" org.eventb.core.prSValue="CVC3"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="il_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="ml_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="n" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="colour"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="b∈ℕ"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="a∈ℕ"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="il_tl∈colour"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="il_tl=red⇒il_pass=TRUE"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="partition(colour,{red},{green})"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="a+b+c=n"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="ml_tl=green⇒a+b&lt;d∧c=0"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="ml_tl=red⇒ml_pass=TRUE"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="a&gt;0"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="ml_tl∈colour"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="a=0∨c=0"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="il_tl=green⇒b&gt;0∧a=0"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="(a+b&lt;d∧c=0)∨c&gt;0∨a&gt;0∨(b&gt;0∧a=0)"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="il_tl=green⇒b+1&gt;0∧a − 1=0"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="ml_tl=red∨il_tl=red"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.smt.core.externalSMT"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.mngHyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="Ml_tl_green/inv3/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22" org.eventb.core.prSets="colour">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="sl/ds" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="SELECT0" org.eventb.core.prHyps="p11,p9,p1,p17,p4,p3,p13,p19,p10,p20,p18,p5,p21,p22,p7,p12,p6"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="CVC3" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p8,p15,p2,p14,p16,p11,p9,p1,p17,p4,p3,p13,p19,p10,p20,p18,p5,p21,p22,p7,p12,p6">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="R1000"/>
+<org.eventb.core.prString name=".config_id" org.eventb.core.prSValue="CVC3"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="il_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="ml_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="n" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="colour"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="n≤d"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="a+b&lt;d"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="b∈ℕ"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="a∈ℕ"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="il_tl∈colour"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="il_tl=red⇒il_pass=TRUE"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="il_pass∈BOOL"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="ml_tl=green⇒a+b&lt;d∧c=0"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="partition(colour,{red},{green})"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="a+b+c=n"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="green=green⇒a+b&lt;d∧c=0"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="d∈ℕ1"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="ml_tl=red⇒ml_pass=TRUE"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="c∈ℕ"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="ml_tl=red"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="c=0"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="il_pass=TRUE"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="n&lt;d∨n&gt;0"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="ml_tl∈colour"/>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="a=0∨c=0"/>
+<org.eventb.core.prPred name="p20" org.eventb.core.predicate="(a+b&lt;d∧c=0)∨c&gt;0∨a&gt;0∨(b&gt;0∧a=0)"/>
+<org.eventb.core.prPred name="p21" org.eventb.core.predicate="il_tl=green⇒b&gt;0∧a=0"/>
+<org.eventb.core.prPred name="p22" org.eventb.core.predicate="ml_tl=red∨il_tl=red"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.smt.core.externalSMT"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.mngHyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="Ml_tl_green/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22" org.eventb.core.prSets="colour">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="sl/ds" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="SELECT0" org.eventb.core.prHyps="p11,p8,p1,p17,p4,p3,p13,p19,p9,p21,p18,p5,p10,p22,p7,p12,p6"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="CVC3" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p20,p15,p2,p14,p16,p11,p8,p1,p17,p4,p3,p13,p19,p9,p21,p18,p5,p10,p22,p7,p12,p6">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="R1000"/>
+<org.eventb.core.prString name=".config_id" org.eventb.core.prSValue="CVC3"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="il_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="ml_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="n" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="colour"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="n≤d"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="a+b&lt;d"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="b∈ℕ"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="a∈ℕ"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="il_tl∈colour"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="il_tl=red⇒il_pass=TRUE"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="il_pass∈BOOL"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="partition(colour,{red},{green})"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="a+b+c=n"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="ml_tl=green⇒a+b&lt;d∧c=0"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="d∈ℕ1"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="ml_tl=red⇒ml_pass=TRUE"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="c∈ℕ"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="ml_tl=red"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="c=0"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="il_pass=TRUE"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="n&lt;d∨n&gt;0"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="ml_tl∈colour"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="red=green⇒b&gt;0∧a=0"/>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="a=0∨c=0"/>
+<org.eventb.core.prPred name="p20" org.eventb.core.predicate="il_tl=green⇒b&gt;0∧a=0"/>
+<org.eventb.core.prPred name="p21" org.eventb.core.predicate="(a+b&lt;d∧c=0)∨c&gt;0∨a&gt;0∨(b&gt;0∧a=0)"/>
+<org.eventb.core.prPred name="p22" org.eventb.core.predicate="ml_tl=red∨il_tl=red"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.smt.core.externalSMT"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.mngHyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="Ml_tl_green/inv5/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="" org.eventb.core.prSets="colour">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="sl/ds" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="SELECT0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="PP (trivial)" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="R1000"/>
+<org.eventb.core.prString name=".config_id" org.eventb.core.prSValue="CVC3"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="colour"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="n≤d">
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="n" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="green=red∨red=red"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="b∈ℕ">
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="a∈ℕ">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="il_tl∈colour">
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="il_tl=red⇒il_pass=TRUE">
+<org.eventb.core.prIdent name="il_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="il_pass∈BOOL">
+<org.eventb.core.prIdent name="il_pass" org.eventb.core.type="BOOL"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="partition(colour,{red},{green})"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="a+b+c=n">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="n" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="ml_tl=green⇒a+b&lt;d∧c=0">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="d∈ℕ1">
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="ml_tl=red⇒ml_pass=TRUE">
+<org.eventb.core.prIdent name="ml_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="c∈ℕ">
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="n&lt;d∨n&gt;0">
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="n" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="ml_tl∈colour">
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="a=0∨c=0">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="(a+b&lt;d∧c=0)∨c&gt;0∨a&gt;0∨(b&gt;0∧a=0)">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="il_tl=green⇒b&gt;0∧a=0">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.smt.core.externalSMT"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.mngHyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="IL_tl_green/inv3/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22" org.eventb.core.prSets="colour">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="sl/ds" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="SELECT0" org.eventb.core.prHyps="p12,p10,p2,p16,p4,p3,p14,p19,p11,p20,p17,p5,p21,p22,p8,p13,p6"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="CVC3" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p9,p15,p18,p7,p1,p12,p10,p2,p16,p4,p3,p14,p19,p11,p20,p17,p5,p21,p22,p8,p13,p6">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="R1000"/>
+<org.eventb.core.prString name=".config_id" org.eventb.core.prSValue="CVC3"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="il_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="ml_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="n" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="colour"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="ml_pass=TRUE"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="n≤d"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="b∈ℕ"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="a∈ℕ"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="il_tl∈colour"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="il_tl=red⇒il_pass=TRUE"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="red=green⇒a+b&lt;d∧c=0"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="il_tl=red"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="ml_pass∈BOOL"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="ml_tl=green⇒a+b&lt;d∧c=0"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="partition(colour,{red},{green})"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="a+b+c=n"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="d∈ℕ1"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="ml_tl=red⇒ml_pass=TRUE"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="c∈ℕ"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="b&gt;0"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="n&lt;d∨n&gt;0"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="ml_tl∈colour"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="a=0"/>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="a=0∨c=0"/>
+<org.eventb.core.prPred name="p20" org.eventb.core.predicate="(a+b&lt;d∧c=0)∨c&gt;0∨a&gt;0∨(b&gt;0∧a=0)"/>
+<org.eventb.core.prPred name="p21" org.eventb.core.predicate="il_tl=green⇒b&gt;0∧a=0"/>
+<org.eventb.core.prPred name="p22" org.eventb.core.predicate="ml_tl=red∨il_tl=red"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.smt.core.externalSMT"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.mngHyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="IL_tl_green/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18" org.eventb.core.prSets="colour">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="sl/ds" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="SELECT0" org.eventb.core.prHyps="p8,p3,p2,p15,p9,p17,p13,p4,p10,p18,p7,p11,p5"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="CVC3" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p16,p12,p14,p6,p1,p8,p3,p2,p15,p9,p17,p13,p4,p10,p18,p7,p11,p5">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="R1000"/>
+<org.eventb.core.prString name=".config_id" org.eventb.core.prSValue="CVC3"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="il_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="ml_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="n" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="colour"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="ml_pass=TRUE"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="green=green⇒b&gt;0∧a=0"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="b∈ℕ"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="a∈ℕ"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="il_tl∈colour"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="il_tl=red⇒il_pass=TRUE"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="il_tl=red"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="ml_pass∈BOOL"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="partition(colour,{red},{green})"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="a+b+c=n"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="ml_tl=green⇒a+b&lt;d∧c=0"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="ml_tl=red⇒ml_pass=TRUE"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="b&gt;0"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="ml_tl∈colour"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="a=0"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="a=0∨c=0"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="il_tl=green⇒b&gt;0∧a=0"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="(a+b&lt;d∧c=0)∨c&gt;0∨a&gt;0∨(b&gt;0∧a=0)"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="ml_tl=red∨il_tl=red"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.smt.core.externalSMT"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.mngHyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="IL_tl_green/inv5/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="" org.eventb.core.prSets="colour">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="sl/ds" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="SELECT0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="PP (trivial)" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="R1000"/>
+<org.eventb.core.prString name=".config_id" org.eventb.core.prSValue="CVC3"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="colour"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="red=red∨green=red"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="b∈ℕ">
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="a∈ℕ">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="il_tl∈colour">
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="il_tl=red⇒il_pass=TRUE">
+<org.eventb.core.prIdent name="il_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="ml_pass∈BOOL">
+<org.eventb.core.prIdent name="ml_pass" org.eventb.core.type="BOOL"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="partition(colour,{red},{green})"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="a+b+c=n">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="n" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="ml_tl=green⇒a+b&lt;d∧c=0">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="ml_tl=red⇒ml_pass=TRUE">
+<org.eventb.core.prIdent name="ml_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="ml_tl∈colour">
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="a=0∨c=0">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="(a+b&lt;d∧c=0)∨c&gt;0∨a&gt;0∨(b&gt;0∧a=0)">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="il_tl=green⇒b&gt;0∧a=0">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.smt.core.externalSMT"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.mngHyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="INITIALISATION/inv8/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="" org.eventb.core.prSets="colour">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="sl/ds" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="SELECT0" org.eventb.core.prHyps="p1"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="PP (trivial)" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="R1000"/>
+<org.eventb.core.prString name=".config_id" org.eventb.core.prSValue="CVC3"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="colour"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="red=red⇒TRUE=TRUE"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="partition(colour,{red},{green})">
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.smt.core.externalSMT"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.mngHyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="ML_out_2/inv8/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23,p24,p25" org.eventb.core.prSets="colour">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="sl/ds" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="SELECT0" org.eventb.core.prHyps="p16,p8,p2,p3,p20,p5,p4,p18,p12,p9,p23,p21,p6,p10,p24,p25,p15,p7"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="CVC3" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p17,p1,p19,p14,p22,p11,p13,p16,p8,p2,p3,p20,p5,p4,p18,p12,p9,p23,p21,p6,p10,p24,p25,p15,p7">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="R1000"/>
+<org.eventb.core.prString name=".config_id" org.eventb.core.prSValue="CVC3"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="il_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="ml_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="n" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="colour"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="n&lt;d"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="n∈ℕ"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="n≤d"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="b∈ℕ"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="a∈ℕ"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="il_tl∈colour"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="il_tl=red⇒il_pass=TRUE"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="partition(colour,{red},{green})"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="a+b+c=n"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="ml_tl=green⇒a+b&lt;d∧c=0"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="a+b+1=d"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="red=red⇒ml_pass=TRUE"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="a=0∨c=0"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="ml_pass=TRUE"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="a+b&lt;d"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="ml_pass∈BOOL"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="d∈ℕ1"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="ml_tl=red⇒ml_pass=TRUE"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="c∈ℕ"/>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="c=0"/>
+<org.eventb.core.prPred name="p20" org.eventb.core.predicate="n&lt;d∨n&gt;0"/>
+<org.eventb.core.prPred name="p21" org.eventb.core.predicate="ml_tl∈colour"/>
+<org.eventb.core.prPred name="p22" org.eventb.core.predicate="ml_tl=green"/>
+<org.eventb.core.prPred name="p23" org.eventb.core.predicate="(a+b&lt;d∧c=0)∨c&gt;0∨a&gt;0∨(b&gt;0∧a=0)"/>
+<org.eventb.core.prPred name="p24" org.eventb.core.predicate="il_tl=green⇒b&gt;0∧a=0"/>
+<org.eventb.core.prPred name="p25" org.eventb.core.predicate="ml_tl=red∨il_tl=red"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.smt.core.externalSMT"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.mngHyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="IL_out_1/inv8/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="" org.eventb.core.prSets="colour">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="sl/ds" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="SELECT0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="PP (trivial)" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="R1000"/>
+<org.eventb.core.prString name=".config_id" org.eventb.core.prSValue="CVC3"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="ml_tl=green⇒TRUE=TRUE"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="b∈ℕ">
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="a∈ℕ">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="il_tl∈colour">
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="il_pass∈BOOL">
+<org.eventb.core.prIdent name="il_pass" org.eventb.core.type="BOOL"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="partition(colour,{red},{green})">
+<org.eventb.core.prIdent name="red" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="a+b+c=n">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="n" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="ml_tl=green⇒a+b&lt;d∧c=0">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="ml_tl∈colour"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="a=0∨c=0">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="(a+b&lt;d∧c=0)∨c&gt;0∨a&gt;0∨(b&gt;0∧a=0)">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="il_tl=green⇒b&gt;0∧a=0">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="ml_tl=red∨il_tl=red">
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.smt.core.externalSMT"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.mngHyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="IL_out_2/inv3/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21" org.eventb.core.prSets="colour">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="sl/ds" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="SELECT0" org.eventb.core.prHyps="p11,p9,p1,p15,p4,p3,p13,p18,p10,p19,p16,p5,p20,p21,p12,p7"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="CVC3" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p8,p14,p17,p2,p6,p11,p9,p1,p15,p4,p3,p13,p18,p10,p19,p16,p5,p20,p21,p12,p7">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="R1000"/>
+<org.eventb.core.prString name=".config_id" org.eventb.core.prSValue="CVC3"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="il_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="ml_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="n" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="colour"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="n≤d"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="il_tl=green"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="b∈ℕ"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="a∈ℕ"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="il_tl∈colour"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="b=1"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="il_tl=red⇒il_pass=TRUE"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="ml_tl=green⇒a+b&lt;d∧c=0"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="partition(colour,{red},{green})"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="a+b+c=n"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="d∈ℕ1"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="ml_tl=red⇒ml_pass=TRUE"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="c∈ℕ"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="b&gt;0"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="ml_tl=green⇒a+(b − 1)&lt;d∧c+1=0"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="n&lt;d∨n&gt;0"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="ml_tl∈colour"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="a=0"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="a=0∨c=0"/>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="(a+b&lt;d∧c=0)∨c&gt;0∨a&gt;0∨(b&gt;0∧a=0)"/>
+<org.eventb.core.prPred name="p20" org.eventb.core.predicate="il_tl=green⇒b&gt;0∧a=0"/>
+<org.eventb.core.prPred name="p21" org.eventb.core.predicate="ml_tl=red∨il_tl=red"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.smt.core.externalSMT"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.mngHyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="IL_out_2/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17" org.eventb.core.prSets="colour">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="sl/ds" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="SELECT0" org.eventb.core.prHyps="p7,p3,p2,p14,p8,p16,p12,p4,p9,p17,p10,p6"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="CVC3" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p15,p11,p13,p1,p5,p7,p3,p2,p14,p8,p16,p12,p4,p9,p17,p10,p6">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="R1000"/>
+<org.eventb.core.prString name=".config_id" org.eventb.core.prSValue="CVC3"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="il_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="ml_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="n" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="colour"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="il_tl=green"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="b∈ℕ"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="a∈ℕ"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="il_tl∈colour"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="b=1"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="il_tl=red⇒il_pass=TRUE"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="partition(colour,{red},{green})"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="a+b+c=n"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="ml_tl=green⇒a+b&lt;d∧c=0"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="ml_tl=red⇒ml_pass=TRUE"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="b&gt;0"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="ml_tl∈colour"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="a=0"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="a=0∨c=0"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="il_tl=green⇒b&gt;0∧a=0"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="(a+b&lt;d∧c=0)∨c&gt;0∨a&gt;0∨(b&gt;0∧a=0)"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="red=green⇒b − 1&gt;0∧a=0"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="ml_tl=red∨il_tl=red"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.smt.core.externalSMT"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.mngHyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="IL_out_2/inv5/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="" org.eventb.core.prSets="colour">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="sl/ds" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="SELECT0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="PP (trivial)" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="R1000"/>
+<org.eventb.core.prString name=".config_id" org.eventb.core.prSValue="CVC3"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="colour"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="b∈ℕ">
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="a∈ℕ">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="il_tl∈colour">
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="il_tl=red⇒il_pass=TRUE">
+<org.eventb.core.prIdent name="il_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="partition(colour,{red},{green})">
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="a+b+c=n">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="n" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="ml_tl=green⇒a+b&lt;d∧c=0">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="ml_tl=red⇒ml_pass=TRUE">
+<org.eventb.core.prIdent name="ml_pass" org.eventb.core.type="BOOL"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="ml_tl=red∨red=red"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="ml_tl∈colour"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="a=0∨c=0">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="(a+b&lt;d∧c=0)∨c&gt;0∨a&gt;0∨(b&gt;0∧a=0)">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="il_tl=green⇒b&gt;0∧a=0">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.smt.core.externalSMT"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.mngHyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="IL_out_2/inv8/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="" org.eventb.core.prSets="colour">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="sl/ds" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="SELECT0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="PP (trivial)" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="R1000"/>
+<org.eventb.core.prString name=".config_id" org.eventb.core.prSValue="CVC3"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="ml_tl=green⇒TRUE=TRUE"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="b∈ℕ">
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="a∈ℕ">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="il_tl∈colour">
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="il_pass∈BOOL">
+<org.eventb.core.prIdent name="il_pass" org.eventb.core.type="BOOL"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="partition(colour,{red},{green})">
+<org.eventb.core.prIdent name="red" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="a+b+c=n">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="n" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="ml_tl=green⇒a+b&lt;d∧c=0">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="ml_tl∈colour"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="a=0∨c=0">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="(a+b&lt;d∧c=0)∨c&gt;0∨a&gt;0∨(b&gt;0∧a=0)">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="il_tl=green⇒b&gt;0∧a=0">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="ml_tl=red∨il_tl=red">
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.smt.core.externalSMT"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.mngHyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="Ml_tl_green/inv8/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23" org.eventb.core.prSets="colour">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="sl/ds" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="SELECT0" org.eventb.core.prHyps="p12,p9,p1,p18,p4,p3,p14,p20,p10,p21,p19,p5,p11,p22,p23,p7,p8,p6"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="CVC3" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p13,p16,p2,p15,p17,p12,p9,p1,p18,p4,p3,p14,p20,p10,p21,p19,p5,p11,p22,p23,p7,p8,p6">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="R1000"/>
+<org.eventb.core.prString name=".config_id" org.eventb.core.prSValue="CVC3"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="il_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="ml_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="n" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="colour"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="n≤d"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="green=red⇒FALSE=TRUE"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="a+b&lt;d"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="b∈ℕ"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="a∈ℕ"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="il_tl∈colour"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="il_tl=red⇒il_pass=TRUE"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="ml_pass∈BOOL"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="il_pass∈BOOL"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="partition(colour,{red},{green})"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="a+b+c=n"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="ml_tl=green⇒a+b&lt;d∧c=0"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="d∈ℕ1"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="ml_tl=red⇒ml_pass=TRUE"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="c∈ℕ"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="ml_tl=red"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="c=0"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="il_pass=TRUE"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="n&lt;d∨n&gt;0"/>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="ml_tl∈colour"/>
+<org.eventb.core.prPred name="p20" org.eventb.core.predicate="a=0∨c=0"/>
+<org.eventb.core.prPred name="p21" org.eventb.core.predicate="(a+b&lt;d∧c=0)∨c&gt;0∨a&gt;0∨(b&gt;0∧a=0)"/>
+<org.eventb.core.prPred name="p22" org.eventb.core.predicate="il_tl=green⇒b&gt;0∧a=0"/>
+<org.eventb.core.prPred name="p23" org.eventb.core.predicate="ml_tl=red∨il_tl=red"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.smt.core.externalSMT"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.mngHyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="IL_tl_green/inv8/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18" org.eventb.core.prSets="colour">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="sl/ds" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="SELECT0" org.eventb.core.prHyps="p8,p3,p2,p15,p9,p16,p13,p4,p10,p17,p18,p7,p5"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="CVC3" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p11,p12,p14,p6,p1,p8,p3,p2,p15,p9,p16,p13,p4,p10,p17,p18,p7,p5">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="R1000"/>
+<org.eventb.core.prString name=".config_id" org.eventb.core.prSValue="CVC3"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="il_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="ml_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="n" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="colour"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="ml_pass=TRUE"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="b∈ℕ"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="a∈ℕ"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="il_tl∈colour"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="il_tl=red⇒il_pass=TRUE"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="il_tl=red"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="ml_pass∈BOOL"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="partition(colour,{red},{green})"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="a+b+c=n"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="ml_tl=green⇒a+b&lt;d∧c=0"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="ml_tl=red⇒ml_pass=TRUE"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="b&gt;0"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="red=red⇒ml_pass=TRUE"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="ml_tl∈colour"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="a=0"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="a=0∨c=0"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="(a+b&lt;d∧c=0)∨c&gt;0∨a&gt;0∨(b&gt;0∧a=0)"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="il_tl=green⇒b&gt;0∧a=0"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="ml_tl=red∨il_tl=red"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.smt.core.externalSMT"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.mngHyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="INITIALISATION/inv9/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="" org.eventb.core.prSets="colour">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="sl/ds" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="SELECT0" org.eventb.core.prHyps="p1"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="PP (trivial)" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="R1000"/>
+<org.eventb.core.prString name=".config_id" org.eventb.core.prSValue="CVC3"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="colour"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="red=red⇒TRUE=TRUE"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="partition(colour,{red},{green})">
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.smt.core.externalSMT"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.mngHyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="ML_out_1/inv8/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="" org.eventb.core.prSets="colour">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="sl/ds" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="SELECT0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="PP (trivial)" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="R1000"/>
+<org.eventb.core.prString name=".config_id" org.eventb.core.prSValue="CVC3"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="colour"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="n∈ℕ">
+<org.eventb.core.prIdent name="n" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="n≤d">
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="n" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="b∈ℕ">
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="a∈ℕ">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="il_tl∈colour">
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="ml_tl=red⇒TRUE=TRUE"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="il_tl=red⇒il_pass=TRUE">
+<org.eventb.core.prIdent name="il_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="ml_pass∈BOOL">
+<org.eventb.core.prIdent name="ml_pass" org.eventb.core.type="BOOL"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="partition(colour,{red},{green})">
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="a+b+c=n">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="n" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="ml_tl=green⇒a+b&lt;d∧c=0">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="d∈ℕ1">
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="c∈ℕ">
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="n&lt;d∨n&gt;0">
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="n" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="ml_tl∈colour"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="a=0∨c=0">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="(a+b&lt;d∧c=0)∨c&gt;0∨a&gt;0∨(b&gt;0∧a=0)">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="il_tl=green⇒b&gt;0∧a=0">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="ml_tl=red∨il_tl=red">
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.smt.core.externalSMT"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.mngHyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="IL_out_1/inv9/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="" org.eventb.core.prSets="colour">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="sl/ds" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="SELECT0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="PP (trivial)" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="R1000"/>
+<org.eventb.core.prString name=".config_id" org.eventb.core.prSValue="CVC3"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="colour"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="b∈ℕ">
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="a∈ℕ">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="il_tl∈colour"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="il_tl=red⇒TRUE=TRUE"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="il_pass∈BOOL">
+<org.eventb.core.prIdent name="il_pass" org.eventb.core.type="BOOL"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="partition(colour,{red},{green})">
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="a+b+c=n">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="n" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="ml_tl=green⇒a+b&lt;d∧c=0">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="ml_tl=red⇒ml_pass=TRUE">
+<org.eventb.core.prIdent name="ml_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="ml_tl∈colour">
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="a=0∨c=0">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="(a+b&lt;d∧c=0)∨c&gt;0∨a&gt;0∨(b&gt;0∧a=0)">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="il_tl=green⇒b&gt;0∧a=0">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="ml_tl=red∨il_tl=red">
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.smt.core.externalSMT"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.mngHyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="IL_out_2/inv9/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="" org.eventb.core.prSets="colour">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="sl/ds" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="SELECT0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="PP (trivial)" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="R1000"/>
+<org.eventb.core.prString name=".config_id" org.eventb.core.prSValue="CVC3"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="colour"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="b∈ℕ">
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="red=red⇒TRUE=TRUE"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="a∈ℕ">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="il_tl∈colour">
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="il_pass∈BOOL">
+<org.eventb.core.prIdent name="il_pass" org.eventb.core.type="BOOL"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="partition(colour,{red},{green})">
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="a+b+c=n">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="n" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="ml_tl=green⇒a+b&lt;d∧c=0">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="ml_tl=red⇒ml_pass=TRUE">
+<org.eventb.core.prIdent name="ml_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="ml_tl∈colour">
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="a=0∨c=0">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="(a+b&lt;d∧c=0)∨c&gt;0∨a&gt;0∨(b&gt;0∧a=0)">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="il_tl=green⇒b&gt;0∧a=0">
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="ml_tl=red∨il_tl=red">
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.smt.core.externalSMT"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.mngHyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="Ml_tl_green/inv9/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22" org.eventb.core.prSets="colour">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="sl/ds" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="SELECT0" org.eventb.core.prHyps="p11,p8,p1,p17,p4,p3,p13,p19,p9,p20,p18,p5,p10,p21,p22,p7,p12"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="CVC3" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p6,p15,p2,p14,p16,p11,p8,p1,p17,p4,p3,p13,p19,p9,p20,p18,p5,p10,p21,p22,p7,p12">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="R1000"/>
+<org.eventb.core.prString name=".config_id" org.eventb.core.prSValue="CVC3"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="il_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="ml_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="n" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="colour"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="n≤d"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="a+b&lt;d"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="b∈ℕ"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="a∈ℕ"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="il_tl∈colour"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="il_tl=red⇒il_pass=TRUE"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="il_pass∈BOOL"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="red=red⇒il_pass=TRUE"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="partition(colour,{red},{green})"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="a+b+c=n"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="ml_tl=green⇒a+b&lt;d∧c=0"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="d∈ℕ1"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="ml_tl=red⇒ml_pass=TRUE"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="c∈ℕ"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="ml_tl=red"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="c=0"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="il_pass=TRUE"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="n&lt;d∨n&gt;0"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="ml_tl∈colour"/>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="a=0∨c=0"/>
+<org.eventb.core.prPred name="p20" org.eventb.core.predicate="(a+b&lt;d∧c=0)∨c&gt;0∨a&gt;0∨(b&gt;0∧a=0)"/>
+<org.eventb.core.prPred name="p21" org.eventb.core.predicate="il_tl=green⇒b&gt;0∧a=0"/>
+<org.eventb.core.prPred name="p22" org.eventb.core.predicate="ml_tl=red∨il_tl=red"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.smt.core.externalSMT"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.mngHyp"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="IL_tl_green/inv9/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19" org.eventb.core.prSets="colour">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="sl/ds" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="SELECT0" org.eventb.core.prHyps="p9,p3,p2,p16,p10,p17,p14,p4,p11,p18,p19,p7,p8,p12"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="CVC3" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p5,p13,p15,p6,p1,p9,p3,p2,p16,p10,p17,p14,p4,p11,p18,p19,p7,p8,p12">
+<org.eventb.core.prString name=".arg" org.eventb.core.prSValue="R1000"/>
+<org.eventb.core.prString name=".config_id" org.eventb.core.prSValue="CVC3"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="green" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="il_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="il_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="ml_pass" org.eventb.core.type="BOOL"/>
+<org.eventb.core.prIdent name="ml_tl" org.eventb.core.type="colour"/>
+<org.eventb.core.prIdent name="n" org.eventb.core.type="ℤ"/>
+<org.eventb.core.prIdent name="red" org.eventb.core.type="colour"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="ml_pass=TRUE"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="green=red⇒FALSE=TRUE"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="b∈ℕ"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="a∈ℕ"/>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="il_tl∈colour"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="il_tl=red⇒il_pass=TRUE"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="il_tl=red"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="ml_pass∈BOOL"/>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="il_pass∈BOOL"/>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="partition(colour,{red},{green})"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="a+b+c=n"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="ml_tl=green⇒a+b&lt;d∧c=0"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="ml_tl=red⇒ml_pass=TRUE"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="b&gt;0"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="ml_tl∈colour"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="a=0"/>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="a=0∨c=0"/>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="(a+b&lt;d∧c=0)∨c&gt;0∨a&gt;0∨(b&gt;0∧a=0)"/>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="il_tl=green⇒b&gt;0∧a=0"/>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="ml_tl=red∨il_tl=red"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.smt.core.externalSMT"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.mngHyp"/>
+</org.eventb.core.prProof>
+</org.eventb.core.prFile>
